@@ -1,2 +1,2 @@
-# Back-end-geo
-Learn back end in Georgia from free online
+# The Complite 2023 Backend Bootcamp In Georgian
+Learn back end in Georgian offline
