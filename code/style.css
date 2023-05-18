@@ -1,0 +1,131 @@
+body {
+    margin: 0px !important;
+    padding: 0px !important;
+    /* font-family: 'Lexend', sans-serif; */
+}
+
+body .background {
+    background-color: #252836;
+
+}
+
+body nav {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+
+body nav div {
+    /* have to be improved */
+    margin-top: 25px;
+    display: flex;
+}
+
+body nav div.center .btn {
+    background-color: transparent !important;
+    border: none;
+    font-size: 17px;
+    color: #EBEBF0;
+}
+
+body nav div.center .btn:hover {
+    color: #F279D2;
+    transition: 0.5s;
+}
+
+body nav div.center .btn-group {
+    margin-top: -6px !important;
+    margin-bottom: 20px;
+    background-color: transparent !important;
+}
+
+body nav div a {
+    text-decoration: none;
+    color: #EBEBF0;
+    font-size: 17px;
+}
+
+body nav div a:hover {
+    color: #F279D2;
+    transition: 0.5s;
+}
+
+body nav .center a:nth-child(1) {
+    margin-right: 50px;
+}
+
+body nav .left h1 img {
+    margin-top: 6px;
+    width: 130px !important;
+    display: flex;
+}
+
+body .top {
+    margin-top: 50px !important;
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+body .top .left {
+    width: 55%;
+    margin-right: 100px;
+}
+
+body .top .left h4 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+body .top .left a {
+    text-decoration: none;
+    background-color: #E23979;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 40px;
+    margin-right: 10px !important;
+
+}
+
+body .top .left a:hover {
+    background-color: #E63A7C;
+    transition: 0.2s;
+}
+
+body .top-bottom {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+body .top-bottom div {
+    width: 360px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+body .top-bottom div:nth-child(2) {
+    border: 1px solid #323646;
+    border-top: none;
+    border-bottom: none;
+}
+
+body .top-bottom h2 {
+    text-align: center;
+}
+
+body .top-bottom div i {
+    color: black;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+body .top-bottom div p {
+    text-align: center;
+    font-size: 18px;
+}
