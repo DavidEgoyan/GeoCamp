@@ -1,3 +1,7 @@
+/* This is a CSS code that defines the styling for a website's header and navigation menu. It sets
+various CSS variables for colors and border styles, and defines styles for various HTML elements
+such as links, buttons, and dropdown menus. It also includes styles for a search bar and a hamburger
+menu icon. */
 * {
     margin: 0;
     padding: 0;
