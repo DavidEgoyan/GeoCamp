@@ -5,58 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Complite 2023 Backend Bootcamp In Georgian</title>
-    <link rel="icon" type="image/png" href="../img/geocamp meta icon png.png" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
+    <link rel="icon" type="image/png" href="../img/geSchoolsMetaIcon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
   </head>
   <body>
-    <div class="background">
-      <nav>
-        <div class="left">
-          <h1><img src="../img/geocamp logo png.png" alt="geocamp logo" /></h1>
-        </div>
-        <div class="center">
-          <a href="#">Blog</a>
-          <div class="btn-group">
-            <button
-              type="button"
-              class="btn btn-secondary dropdown-toggle"
-              data-bs-toggle="dropdown"
-              data-bs-display="static"
-              aria-expanded="false"
-            >
-              More
-            </button>
-            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
-              <li><button class="dropdown-item" type="button">Faq</button></li>
+    <header id="nav-menu" aria-label="navigation bar">
+      <div class="container">
+        <div class="nav-start">
+          <a class="logo" href="/">
+            <img
+              src="../img/geSchoolsLogo.png"
+              width="103"
+              height="17"
+              alt="Inc Logo"
+            />
+          </a>
+          <nav class="menu">
+            <ul class="menu-bar">
               <li>
-                <button class="dropdown-item" type="button">About</button>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown1"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="browse"
+                >
+                  Browse
+                  <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                </button>
+                <div id="dropdown1" class="dropdown">
+                  <ul role="menu">
+                    <li class="dropdown-title">
+                      <span class="dropdown-link-title">Browse by apps</span>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#"> Adobe XD </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#"> After Effect </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#"> Sketch </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#"> Indesign </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#"> Figma </a>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li>
-                <button class="dropdown-item" type="button">Jobs</button>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown2"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="discover"
+                >
+                  Discover
+                  <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                </button>
+                <div id="dropdown2" class="dropdown">
+                  <ul role="menu">
+                    <li>
+                      <span class="dropdown-link-title">Browse Categories</span>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#branding">Branding</a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#illustrations"
+                        >Illustration</a
+                      >
+                    </li>
+                  </ul>
+                  <ul role="menu">
+                    <li>
+                      <span class="dropdown-link-title">Download App</span>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#mac-windows"
+                        >MacOS & Windows</a
+                      >
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#linux">Linux</a>
+                    </li>
+                  </ul>
+                </div>
               </li>
+              <li><a class="nav-link" href="/">Jobs</a></li>
+              <li><a class="nav-link" href="/">Livestream</a></li>
+              <li><a class="nav-link" href="/">About</a></li>
             </ul>
-          </div>
+          </nav>
         </div>
-        <div class="right">
-          <a href="#"
-            >Login <i class="fa-solid fa-arrow-right-to-bracket"></i
-          ></a>
-        </div>
-      </nav>
-    </div>
 
+        <div class="nav-end">
+          <div class="right-container">
+            <form class="search" role="search">
+              <input type="search" name="search" placeholder="Search" />
+              <i class="bx bx-search" aria-hidden="true"></i>
+            </form>
+            <a href="#profile">
+              <img
+                src="../img/profilePicture.jpg"
+                width="30"
+                height="30"
+                alt="user image"
+              />
+            </a>
+            <button class="btn btn-primary">Create</button>
+          </div>
+
+          <button
+            id="hamburger"
+            aria-label="hamburger"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i class="bx bx-menu" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </header>
     <main>
       <div class="top">
         <div class="left">
@@ -103,11 +184,6 @@
     </main>
     <script
       src="https://kit.fontawesome.com/933cc7516f.js"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
     <script src="./main.js"></script>
