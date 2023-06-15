@@ -1,4 +1,4 @@
-<img src="./img/backEndLogo.png" style="width: 200px; padding: 15px; display: block; margin: auto" />
+<img src="./img/backendLogo.png" style="width: 200px; padding: 15px; display: block; margin: auto" />
 
 # The Complite 2023 Backend Bootcamp In Georgian
 
