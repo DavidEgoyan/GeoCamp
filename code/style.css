@@ -64,11 +64,6 @@ button {
     margin-top: 9px;
     /*  */
 }
-
-#nav-menu {
-    border-bottom: var(--border);
-}
-
 .container {
     display: flex;
     align-items: center;
