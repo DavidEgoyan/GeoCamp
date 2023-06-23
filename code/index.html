@@ -28,143 +28,148 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header id="nav-menu" aria-label="navigation bar">
-      <div class="container">
-        <!-- This code is creating a navigation bar with a logo, a menu with dropdown options, and links to
-        different pages. The dropdown menus have different options for browsing and downloading apps. -->
-        <div class="nav-start">
-          <a class="logo" href="/">
-            <img src="../img/geCampText.png" width="150" alt="Inc Logo" />
-          </a>
-          <nav class="menu">
-            <ul class="menu-bar">
-              <li>
-                <button
-                  class="nav-link dropdown-btn"
-                  data-dropdown="dropdown1"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  aria-label="browse"
-                >
-                  მოძიება
-                  <i class="bx bx-chevron-down" aria-hidden="true"></i>
-                </button>
-                <div id="dropdown1" class="dropdown">
-                  <ul role="menu">
-                    <li class="dropdown-title">
-                      <span class="dropdown-link-title">Browse by apps</span>
-                    </li>
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="#"> Adobe XD </a>
-                    </li>
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="#"> After Effect </a>
-                    </li>
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="#"> Sketch </a>
-                    </li>
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="#"> Indesign </a>
-                    </li>
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="#"> Figma </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li>
-                <button
-                  class="nav-link dropdown-btn"
-                  data-dropdown="dropdown2"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  aria-label="discover"
-                >
-                  აღმოჩენა
-                  <i class="bx bx-chevron-down" aria-hidden="true"></i>
-                </button>
-                <div id="dropdown2" class="dropdown">
-                  <ul role="menu">
-                    <li>
-                      <span class="dropdown-link-title">Browse Categories</span>
-                    </li>
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="#branding">Branding</a>
-                    </li>
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="#illustrations"
-                        >Illustration</a
-                      >
-                    </li>
-                  </ul>
-                  <ul role="menu">
-                    <li>
-                      <span class="dropdown-link-title">Download App</span>
-                    </li>
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="#mac-windows"
-                        >MacOS & Windows</a
-                      >
-                    </li>
-                    <li role="menuitem">
-                      <a class="dropdown-link" href="#linux">Linux</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li><a class="nav-link" href="/">სამუშაოები</a></li>
-              <li><a class="nav-link" href="/">Პირდაპირი ეთერი</a></li>
-              <li><a class="nav-link" href="/">საიტის შესახებ</a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <!-- This code is creating the right side of the navigation bar. It includes a search bar, a user profile
-        picture, a "Create" button, and a hamburger menu button for mobile devices. -->
-        <div class="nav-end">
-          <div class="right-container">
-            <a href="#profile">
-              <img
-                src="../img/profilePicture.jpg"
-                width="30"
-                height="30"
-                alt="user image"
-              />
+    <div class="nav">
+      <header id="nav-menu" aria-label="navigation bar">
+        <div class="container">
+          <!-- This code is creating a navigation bar with a logo, a menu with dropdown options, and links to
+          different pages. The dropdown menus have different options for browsing and downloading apps. -->
+          <div class="nav-start">
+            <a class="logo" href="/">
+              <img src="../img/geCampText.png" width="150" alt="Inc Logo" />
             </a>
-            <button class="btn btn-primary">შექმნა</button>
+            <nav class="menu">
+              <ul class="menu-bar">
+                <li>
+                  <button
+                    class="nav-link dropdown-btn"
+                    data-dropdown="dropdown1"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    aria-label="browse"
+                  >
+                    მოძიება
+                    <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                  </button>
+                  <div id="dropdown1" class="dropdown">
+                    <ul role="menu">
+                      <li class="dropdown-title">
+                        <span class="dropdown-link-title">Browse by apps</span>
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="#"> Adobe XD </a>
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="#"> After Effect </a>
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="#"> Sketch </a>
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="#"> Indesign </a>
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="#"> Figma </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <button
+                    class="nav-link dropdown-btn"
+                    data-dropdown="dropdown2"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    aria-label="discover"
+                  >
+                    აღმოჩენა
+                    <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                  </button>
+                  <div id="dropdown2" class="dropdown">
+                    <ul role="menu">
+                      <li>
+                        <span class="dropdown-link-title"
+                          >Browse Categories</span
+                        >
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="#branding">Branding</a>
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="#illustrations"
+                          >Illustration</a
+                        >
+                      </li>
+                    </ul>
+                    <ul role="menu">
+                      <li>
+                        <span class="dropdown-link-title">Download App</span>
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="#mac-windows"
+                          >MacOS & Windows</a
+                        >
+                      </li>
+                      <li role="menuitem">
+                        <a class="dropdown-link" href="#linux">Linux</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a class="nav-link" href="/">სამუშაოები</a></li>
+                <li><a class="nav-link" href="/">Პირდაპირი ეთერი</a></li>
+                <li><a class="nav-link" href="/">საიტის შესახებ</a></li>
+              </ul>
+            </nav>
           </div>
 
-          <button
-            id="hamburger"
-            aria-label="hamburger"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            <i class="bx bx-menu" aria-hidden="true"></i>
-          </button>
+          <!-- This code is creating the right side of the navigation bar. It includes a search bar, a user profile
+          picture, a "Create" button, and a hamburger menu button for mobile devices. -->
+          <div class="nav-end">
+            <div class="right-container">
+              <a href="#profile">
+                <img
+                  src="../img/profilePicture.jpg"
+                  width="30"
+                  height="30"
+                  alt="user image"
+                />
+              </a>
+              <button class="btn btn-primary">შექმნა</button>
+            </div>
+
+            <button
+              id="hamburger"
+              aria-label="hamburger"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <i class="bx bx-menu" aria-hidden="true"></i>
+            </button>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
+    </div>
     <main>
       <div class="top">
         <div class="left">
           <h1>
-            გინდა ისწავლო Backend-ის დეველოპმენტი
+            გინდა ისწავლო <span class="pink">Backend</span> დეველოპმენტი
             <span class="pink">უფასოდ?</span>
           </h1>
           <h4>
-            დაეუფლეთ back-end-ის განვითარებას ქართულად სახლიდან გაუსვლელად ჩვენი უფასო
-            ონლაინ კურსის საშუალებით.
+            დაეუფლეთ back-end-ის განვითარებას
+            <span class="pink">ქართულად სახლიდან გაუსვლელად</span> ჩვენი
+            <span class="pink">უფასო</span> ონლაინ კურსის საშუალებით.
           </h4>
           <h4>
             ისწავლეთ აუცილებელი უნარები და შექმენით მყარი საფუძველი
-            წარმატებისთვის პროგრამირების სფეროში.
+            <span class="pink">წარმატებისთვის პროგრამირების სფეროში</span>.
           </h4>
           <a href="#">დაიწყე სწავლა</a>
           <a href="#">გაიგე მეტი</a>
         </div>
         <div class="right">
-          <img src="../img/geCampLogo.png" alt="" width="300" />
+          <img src="../img/backendLogo2.png" alt="" width="400" />
         </div>
       </div>
       <div class="top-bottom">
@@ -172,24 +177,21 @@
           <img src="../img/priceTagLogo.png" alt="" />
           <h2>უფასო</h2>
           <p>
-            ფასი არის $0/თვეში დაფინანსების ვარიანტებით, ასე რომ თქვენ შეუძლია
-            ისწავლოს კოდირება ნულოვანი რისკით.
+            ფასი არის $0/თვეში, ასე რომ თქვენ შეგიძლიათ ისწავლოს კოდირება
+            ნულოვანი რისკით.
           </p>
         </div>
         <div class="center">
           <img src="../img/mapLogo.png" alt="" />
           <h2>დისტანციური</h2>
-          <p>
-            გამოტოვეთ მგზავრობა და ისწავლეთ ონლაინ სხვა სტუდენტების ჯგუფთან
-            ერთად თქვენი ქალაქიდან.
-          </p>
+          <p>გამოტოვეთ მგზავრობა და ისწავლეთ ონლაინ სახლიდან გაუსვლელად.</p>
         </div>
         <div class="right">
           <img src="../img/clockLogo.png" alt="" />
           <h2>მოქნილი</h2>
           <p>
-            შეესაბამება თქვენს ნორმალურ ცხოვრებას ნახევარ განაკვეთზე და
-            შაბათ-კვირის კურსებით მოერგოს თქვენს განრიგს.
+            შეესაბამება თქვენს ნორმალურ ცხოვრებას და შეგიძლიათ ისწავლოთ
+            თქვენთვის თავისუფალ დროს.
           </p>
         </div>
       </div>
