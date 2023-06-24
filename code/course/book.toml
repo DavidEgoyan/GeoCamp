@@ -1,0 +1,6 @@
+[book]
+authors = ["DavidEgoyan"]
+language = "ge"
+multilingual = false
+src = "src"
+title = "backend-course"
