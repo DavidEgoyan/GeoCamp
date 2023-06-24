@@ -1,6 +1,6 @@
 [book]
 authors = ["DavidEgoyan"]
-language = "ge"
+language = "ka"
 multilingual = false
 src = "src"
-title = "backend-course"
+title = "The Complite 2023 Backend Bootcamp In Georgian"
