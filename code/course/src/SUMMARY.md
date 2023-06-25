@@ -1,3 +1,3 @@
 # Summary
-
-- [Chapter 1](./chapter_1.md)
+- [ამ წიგნის შესახებ](./)
+- [თავი 1](./chapter_1.md)
