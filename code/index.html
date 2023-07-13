@@ -33,118 +33,19 @@
         <div class="container">
           <!-- This code is creating a navigation bar with a logo, a menu with dropdown options, and links to
           different pages. The dropdown menus have different options for browsing and downloading apps. -->
-          <div class="nav-start">
-            <a class="logo" href="/">
-              <img src="../img/geCampText.png" width="150" alt="Inc Logo" />
-            </a>
-            <nav class="menu">
-              <ul class="menu-bar">
-                <li>
-                  <button
-                    class="nav-link dropdown-btn"
-                    data-dropdown="dropdown1"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    aria-label="browse"
-                  >
-                    მოძიება
-                    <i class="bx bx-chevron-down" aria-hidden="true"></i>
-                  </button>
-                  <div id="dropdown1" class="dropdown">
-                    <ul role="menu">
-                      <li class="dropdown-title">
-                        <span class="dropdown-link-title">Browse by apps</span>
-                      </li>
-                      <li role="menuitem">
-                        <a class="dropdown-link" href="#"> Adobe XD </a>
-                      </li>
-                      <li role="menuitem">
-                        <a class="dropdown-link" href="#"> After Effect </a>
-                      </li>
-                      <li role="menuitem">
-                        <a class="dropdown-link" href="#"> Sketch </a>
-                      </li>
-                      <li role="menuitem">
-                        <a class="dropdown-link" href="#"> Indesign </a>
-                      </li>
-                      <li role="menuitem">
-                        <a class="dropdown-link" href="#"> Figma </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li>
-                  <button
-                    class="nav-link dropdown-btn"
-                    data-dropdown="dropdown2"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    aria-label="discover"
-                  >
-                    აღმოჩენა
-                    <i class="bx bx-chevron-down" aria-hidden="true"></i>
-                  </button>
-                  <div id="dropdown2" class="dropdown">
-                    <ul role="menu">
-                      <li>
-                        <span class="dropdown-link-title"
-                          >Browse Categories</span
-                        >
-                      </li>
-                      <li role="menuitem">
-                        <a class="dropdown-link" href="#branding">Branding</a>
-                      </li>
-                      <li role="menuitem">
-                        <a class="dropdown-link" href="#illustrations"
-                          >Illustration</a
-                        >
-                      </li>
-                    </ul>
-                    <ul role="menu">
-                      <li>
-                        <span class="dropdown-link-title">Download App</span>
-                      </li>
-                      <li role="menuitem">
-                        <a class="dropdown-link" href="#mac-windows"
-                          >MacOS & Windows</a
-                        >
-                      </li>
-                      <li role="menuitem">
-                        <a class="dropdown-link" href="#linux">Linux</a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li><a class="nav-link" href="/">სამუშაოები</a></li>
-                <li><a class="nav-link" href="/">Პირდაპირი ეთერი</a></li>
-                <li><a class="nav-link" href="/">საიტის შესახებ</a></li>
-              </ul>
-            </nav>
-          </div>
-
+          <a class="logo" href="./index.html">
+            <img src="../img/geCampText.png" width="150" alt="Inc Logo" />
+          </a>
           <!-- This code is creating the right side of the navigation bar. It includes a search bar, a user profile
           picture, a "Create" button, and a hamburger menu button for mobile devices. -->
           <div class="nav-end">
             <div class="right-container">
-              <a href="#profile">
-                <img
-                  src="../img/profilePicture.jpg"
-                  width="30"
-                  height="30"
-                  alt="user image"
-                />
-              </a>
-              <button class="btn btn-primary">შექმნა</button>
+              <a
+                class="btn btn-primary"
+                href="https://github.com/DavidEgoyan/geSchools/blob/main/README.md"
+                >გაიგე მეტი</a
+              >
             </div>
-
-            <button
-              id="hamburger"
-              aria-label="hamburger"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              <i class="bx bx-menu" aria-hidden="true"></i>
-            </button>
           </div>
         </div>
       </header>
@@ -165,8 +66,7 @@
             ისწავლეთ აუცილებელი უნარები და შექმენით მყარი საფუძველი
             <span class="pink">წარმატებისთვის პროგრამირების სფეროში</span>.
           </h4>
-          <a href="./course/src/chapter_1.md">კურსის დაწყება</a>
-          <a href="https://github.com/DavidEgoyan/geSchools/blob/main/README.md">გაიგე მეტი</a>
+          <a href="./course/book/index.html">კურსის დაწყება</a>
         </div>
         <div class="right">
           <img src="../img/backendLogo2.png" alt="" width="400" />
@@ -200,6 +100,5 @@
       src="https://kit.fontawesome.com/933cc7516f.js"
       crossorigin="anonymous"
     ></script>
-    <script src="./main.js"></script>
   </body>
 </html>

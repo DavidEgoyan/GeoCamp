@@ -52,16 +52,18 @@ button {
 .nav-link {
     font-weight: 600 !important;
 }
-
 .btn {
     display: block;
-    background-color: var(--primary-color);
-    color: var(--white);
-    text-align: center;
+    background-color: #E23979;
+    color: white;
     padding: 0.6rem 1.4rem;
     font-size: 1rem;
-    font-weight: 500;
-    border-radius: 5px;
+    text-align: center;
+    border-radius: 40px;
+}
+.btn:hover {
+    background-color: #FF55E2;
+    transition: 0.2s;
 }
 
 .icon {
@@ -80,9 +82,8 @@ button {
 .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    column-gap: 2rem;
     height: 90px;
+    justify-content: space-between !important;
 }
 
 .menu {
