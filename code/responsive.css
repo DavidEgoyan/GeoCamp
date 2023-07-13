@@ -78,3 +78,153 @@ a certain size. */
         display: none;
     }
 }
+
+/* Add a media query for screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+
+    /* Adjust the logo size for smaller screens */
+    .logo img {
+        width: 120px;
+    }
+
+    /* Center align the navigation elements */
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Adjust the positioning of the right container */
+    .right-container {
+        margin-left: auto;
+    }
+}
+
+/* Add a media query for screens smaller than 480px */
+@media only screen and (max-width: 480px) {
+
+    /* Reduce the font size of the heading */
+    h1 {
+        font-size: 24px;
+    }
+
+    /* Adjust the width of the image in the top section */
+    .top .right img {
+        width: 100%;
+    }
+
+    /* Adjust the positioning of the top section elements */
+    .top {
+        flex-direction: column;
+    }
+
+    /* Center align the elements in the top section */
+    .left,
+    .right {
+        text-align: center;
+    }
+
+    /* Adjust the width of the image in the top-bottom section */
+    .top-bottom img {
+        width: 80px;
+    }
+
+    /* Adjust the positioning of the top-bottom section elements */
+    .top-bottom {
+        flex-direction: column;
+    }
+
+    /* Center align the elements in the top-bottom section */
+    .left,
+    .center,
+    .right {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+/* Add general responsive styles */
+
+/* Ensure images and other content resize properly */
+img,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Add a responsive font size for better readability on small screens */
+html {
+    font-size: 16px;
+}
+
+/* Adjust font sizes for different screen sizes */
+@media only screen and (max-width: 1366px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* Adjust styles for mobile devices */
+    .top {
+        flex-direction: column;
+    }
+
+    .left,
+    .right {
+        text-align: center;
+    }
+
+    .left h1,
+    .left h4,
+    .left a {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .right img {
+        margin: 20px 0;
+    }
+
+    .top-bottom {
+        flex-direction: column;
+    }
+
+    .top-bottom div {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .center img,
+    .right img {
+        margin: 0 auto;
+    }
+}
+
+/* Styles for tablets */
+@media screen and (max-width: 768px) {
+    /* Adjust styles for tablets */
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 992px) {
+    /* Adjust styles for larger screens */
+}
