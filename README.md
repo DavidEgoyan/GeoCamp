@@ -15,5 +15,3 @@ What sets GeoCamp apart is the emphasis on practical application. We provide han
 By joining GeoCamp, you become part of a vibrant community of learners passionate about back-end development. Connect with fellow students, engage in discussions, and collaborate on projects to enhance your learning journey. The supportive atmosphere and knowledge-sharing environment will propel you forward and foster valuable connections.
 
 Whether you're a beginner taking your first steps in the world of programming or an experienced developer looking to expand your skill set, GeoCamp is the ideal place to embark on your back-end development journey. Enroll today and unlock the potential of your coding skills with our free online course in back-end development on the GeoCamp platform. Get ready to elevate your career and create impactful web applications with confidence and expertise.
-
-Working on it right now...
